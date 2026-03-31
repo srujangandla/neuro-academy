@@ -1,0 +1,152 @@
+.body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+
+.text{
+    text-align: center;
+    margin-top: 0px;
+    padding: 50px;
+    color: rgb(3, 3, 3);
+    font-size: 50px;
+    font-family: cursive;
+    text-align: left;
+}
+.classhome{
+    width: 80%;
+    padding: 5px;
+    padding-top: 0%;
+    margin-left:35%;
+    color: rgb(0, 0, 0);
+}
+.banner{
+    background-image: url("banner.png");
+    width: 100vw;
+    height: 80vh;
+    justify-content: space-between;
+    align-items: center;
+    background-size: cover;
+    margin-top: 50px;
+}
+
+
+.parent {
+    display: grid;
+    margin-top: 25px    ;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    gap: 8px;
+}
+    
+.div1 {
+    grid-column-start: 1;
+}
+.div1 img {
+    max-width: 100%;
+    height: 200px;
+    display: block;
+    border-radius: 10px;
+    margin-left: 10px;
+}
+
+.div2 {
+    grid-column-start: 2;
+    margin-left: 15px;
+}
+
+.div2 img {
+    max-width: 100%;
+    height: 200px;
+    display: block;
+    border-radius: 10px;
+}
+
+.div3 {
+    grid-column-start: 3;
+}
+
+.div3 img {
+    max-width: 100%;
+    height: 200px;
+    display: block;
+    border-radius: 10px;
+}
+
+.div4 {
+    grid-column-start: 4;
+}
+
+.div4 img {
+    max-width: 100%;
+    height: 200px;
+    display: block;
+    border-radius: 10px;
+}    
+
+.div5 {
+    grid-column-start: 5;
+}
+
+.div5 img {
+    max-width: 100%;
+    height: 200px;
+    display: block;
+    border-radius: 10px;
+}    
+
+.card img {
+    height: 200px;
+    object-fit: cover;
+}
+
+.card {
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    filter: invert(1); /* makes them dark */
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    width: 50px;
+    height: 50px;
+    background-color: rgba(0,0,0,0.6);
+    border-radius: 50%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.carousel-control-prev {
+    left: -25px;
+}
+
+.carousel-control-next {
+    right: -25px;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    opacity: 0;
+    transition: 0.3s;
+}
+
+.carousel:hover .carousel-control-prev,
+.carousel:hover .carousel-control-next {
+    opacity: 1;
+}
+
+.size1{
+    height: 180px;
+
+}
+
+.size2{
+    height: 140px;
+}

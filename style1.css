@@ -1,0 +1,74 @@
+body{
+    margin:0;
+    font-family: Arial;
+}
+
+.navbar{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    background:#333;
+    padding:10px;
+    padding-right: 20px;
+}
+
+
+.nav-links{
+    list-style:none;
+    display:flex;
+
+}
+
+.nav-links li{
+    margin:0 10px;
+}
+
+.nav-links a{
+    color:white;
+    text-decoration:none;
+    font-size:16px;
+}
+
+.acadamy{
+    display:none;
+    font-size:26px;
+    color:white;
+    cursor:pointer;
+}
+
+/* Responsive Design */
+
+@media (max-width:768px){
+
+.nav-links{
+    display:none;
+    flex-direction:column;
+    width:100%;
+    background:#333;
+    position:absolute;
+    top:50px;
+    left:0;
+}
+
+.nav-links li{
+    text-align:center;
+    padding:10px;
+}
+
+.hamburger{
+    display:block;
+}
+
+.nav-links.show{
+    display:flex;
+}
+
+}
+
+.logo a{
+    color: white !important;
+    text-decoration: none !important; 
+    font-weight: bold !important;
+    padding: 15px;
+    padding-bottom: 5px;
+}

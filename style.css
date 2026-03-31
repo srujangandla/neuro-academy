@@ -1,0 +1,39 @@
+
+
+form{
+    background:rgb(255, 255, 255);
+    width: 350px;
+    margin: auto;
+    padding: 20px;
+    border-radius: 8px;
+    border: 1px solid;
+}
+
+label{
+    display: block;
+    margin-top: 5px;
+    text-align: left;
+}
+
+input{
+    width: 95%;
+    padding: 8px;
+    margin-top: 5px;
+}
+
+button{
+    margin-top: 15px;
+    padding: 10px;
+    width: 100%;
+    background: rgb(181, 193, 88);
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+
+#error{
+    color: red;
+    margin-top: 10px;
+}
