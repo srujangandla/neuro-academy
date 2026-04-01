@@ -150,3 +150,8 @@
 .size2{
     height: 140px;
 }
+
+.profile-text{
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
