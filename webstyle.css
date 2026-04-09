@@ -155,3 +155,18 @@
     color: rgb(0, 0, 0);
     text-align: center;
 }
+
+.foot-links{
+    list-style: none;
+
+}
+
+.foot-links li{
+    margin: 0 10px;
+    margin-bottom: 5px;
+}
+.foot-links a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 18px;
+}
