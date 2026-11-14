@@ -107,7 +107,7 @@ Add screenshots of:
 
 **Srujan**
 
-GitHub: https://github.com/your-username
+**Manu**
 
 ---
 
